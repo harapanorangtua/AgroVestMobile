@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:text="Edit Profil Pengguna"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etnamaprofil"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/input"
+            android:ems="10"
+            android:hint="Masukkan Nama Anda"
+            android:paddingStart="10dp"
+            app:layout_constraintStart_toEndOf="@id/nama"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/usia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Usia"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nama" />
+
+        <EditText
+            android:id="@+id/etusiaprofil"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input"
+            android:ems="10"
+            android:hint="Masukkan Usia"
+            android:inputType="number"
+            android:paddingStart="10dp"
+            app:layout_constraintStart_toEndOf="@id/usia"
+            app:layout_constraintTop_toBottomOf="@id/etnamaprofil" />
+
+        <TextView
+            android:id="@+id/jeniskelamin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="Jenis Kelamin"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/usia" />
+
+        <RadioGroup
+            android:id="@+id/etjekelprofil"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/input"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etusiaprofil">
+
+            <RadioButton
+                android:id="@+id/rblaki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Laki-Laki" />
+
+            <RadioButton
+                android:id="@+id/rbperempuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Perempuan" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="Username"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/jeniskelamin" />
+
+        <EditText
+            android:id="@+id/etuserprofil"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/input"
+            android:ems="10"
+            android:hint="Masukkan Username"
+            android:paddingStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etjekelprofil" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnedit"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/custom_btn"
+            android:text="Ubah"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etjekelprofil" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

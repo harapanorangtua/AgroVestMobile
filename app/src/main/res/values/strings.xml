@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">AgroVest</string>
+    <string name="menu_home">Homepage</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="kalku">Kalkulator pupuk adalah aplikasi yang membantu menghitung jumlah pupuk yang diperlukan berdasarkan luas lahan, kesuburan tanah, dan unsur N, P, Serta K.</string>
+    <string name="header">Mendukung pertanian berkelanjutan dan pertumbuhan hijau.</string>
+    <string name="galeripupuk">Selamat datang di Galeri Pupuk Agrovest, tempat yang menyediakan informasi komprehensif mengenai pupuk, termasuk pupuk kandang, pupuk hijau, dan pupuk kompos. Kami berkomitmen untuk memberikan panduan tentang penggunaan pupuk yang bijak, memastikan kesuburan tanah, dan menjaga keberlanjutan ekologi dalam pertanian.</string>
+    <string name="tanaman">Setiap tanaman memiliki kebutuhan nutrisi yang berbeda, dan pemahaman tentang jenis tanaman yang Anda miliki akan membantu Anda memilih pupuk yang sesuai. Berikut adalah beberapa contoh tanaman yang biasanya dipupuk.</string>
+    <string-array name="piltanam">
+        <item> -- Jenis Tanaman -- </item>
+        <item>Padi</item>
+        <item>Jagung</item>
+        <item>Gandum</item>
+        <item>Kentang</item>
+        <item>Singkong</item>
+    </string-array>
+    <string-array name="pilsatuan">
+        <item> -- Pilih Satuan -- </item>
+        <item>Hektare</item>
+        <item>m²</item>
+    </string-array>
+    <string name="asalnya">𝗣𝗨𝗣𝗨𝗞 𝗔𝗟𝗔𝗠
+                           \nDalam pembuatannya, bahan-bahan yang digunakan berasal dari alam.\n
+                           \n &#160;&#160;&#160;&#160; • Pupuk Kompos
+                           \n &#160;&#160;&#160;&#160; • Pupuk Kandang
+                           \n &#160;&#160;&#160;&#160; • Pupuk Guano
+                           \n\n𝗣𝗨𝗣𝗨𝗞 𝗕𝗨𝗔𝗧𝗔𝗡
+                              \nSeperti nama jenisnya, pupuk ini dibuat oleh pabrik dengan merekayasan bahan dari alam melalui proses fisika dan kimia.\n
+                           \n &#160;&#160;&#160;&#160; • Pupuk Urea
+                           \n &#160;&#160;&#160;&#160; • Pupuk TSP
+                           \n &#160;&#160;&#160;&#160; • Pupuk ZA</string>
+    <string name="senyawa">𝗣𝗨𝗣𝗨𝗞 𝗢𝗥𝗚𝗔𝗡𝗜𝗞
+                           \nBahan yang digunakan rata-rata berasal dari alam, yang prosesnya terjadi secara alami atau direkayasa.\n
+                           \n &#160;&#160;&#160;&#160; • Pupuk Kompos
+                           \n &#160;&#160;&#160;&#160; • Pupuk Kandang
+                           \n &#160;&#160;&#160;&#160; • Pupuk Guano
+                           \n\n𝗣𝗨𝗣𝗨𝗞 𝗔𝗡𝗢𝗥𝗚𝗔𝗡𝗜𝗞
+                              \nMemiliki senyawa anorganik, pupuk anorganik kebanyakan merupakan pupuk buatan atau pupuk alam yang terbuat dari bahan kimia.\n
+                           \n &#160;&#160;&#160;&#160; • Pupuk Urea
+                           \n &#160;&#160;&#160;&#160; • Pupuk TSP
+                           \n &#160;&#160;&#160;&#160; • Pupuk ZA</string>
+    <string name="penerapan">𝗣𝗨𝗣𝗨𝗞 𝗗𝗔𝗨𝗡
+                           \nPupuk daun diaplikasikan dengan cara disemprotkan pada daun tanaman, rata-rata memiliki kandungan unsur hara mikro.\n
+                           \n\n𝗣𝗨𝗣𝗨𝗞 𝗔𝗞𝗔𝗥
+                              \nPupuk akar diaplikasikan dengan cara disebar atau dibenamkan pada tanah disekeliling tanaman agar mudah diserap oleh akar. Kebanyakan pupuk akar memiliki kandungan hara makro.\n</string>
+    <string name="bentuk">𝗣𝗨𝗣𝗨𝗞 𝗣𝗔𝗗𝗔𝗧
+                           \nMemiliki bentuk fisik padatan dengan kelarutan yang beragam. Kebanyakan merupakan pupuk yang menganduk unsur hara makro.\n
+                           \n &#160;&#160;&#160;&#160; • Pupuk Tablet
+                           \n &#160;&#160;&#160;&#160; • Pupuk Briket
+                           \n &#160;&#160;&#160;&#160; • Pupuk Granul
+                           \n\n𝗣𝗨𝗣𝗨𝗞 𝗖𝗔𝗜𝗥
+                              \nMemiliki bentuk fisik cair, kebanyakan merupakan pupuk yang mengandung unsur hara makro dan mikro.\n
+                           \n &#160;&#160;&#160;&#160; • Pupuk cair GDM</string>
+    <string name="unsurhara">𝗣𝗨𝗣𝗨𝗞 𝗧𝗨𝗡𝗚𝗚𝗔𝗟
+                           \nMengandung satu macam unsur hara saja, kebanyakan merupakan kandungan unsur hara makro primer.\n
+                           \n &#160;&#160;&#160;&#160; • Pupuk Urea (Unsur hara N)
+                           \n &#160;&#160;&#160;&#160; • Pupuk TSP (Unsur hara P)
+                           \n\n𝗣𝗨𝗣𝗨𝗞 𝗠𝗔𝗝𝗘𝗠𝗨𝗞
+                              \nMengandung beberapa macam unsur hara\n
+                           \n &#160;&#160;&#160;&#160; • Pupuk NPK, yang mengandung unsur hara &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nitrogen, phosphorus, dan potassium.</string>
+    <string name="galeritanaman">Selamat datang di Galeri Tanaman Agrovest, di mana kami memberikan berbagai informasi jenis tanaman pangan, sayuran, dan buah-buahan yang dapat menjadi aset berharga dalam pertanian Anda. </string>
+    <string name="tanamanpangan">Tanaman pangan adalah jenis tanaman yang dikembangkan dan dipanen untuk tujuan konsumsi manusia atau hewan sebagai sumber makanan. Tanaman pangan mencakup berbagai jenis tanaman yang memberikan kontribusi utama dalam memenuhi kebutuhan gizi manusia. Jenis tanaman pangan dapat bervariasi di berbagai wilayah dan bergantung pada kebiasaan makan lokal, iklim, dan lingkungan pertanian.\n
+                           \nContoh Tanaman Pangan,yaitu:
+                           \n &#160;&#160;&#160;&#160; • Gandum
+                           \n &#160;&#160;&#160;&#160; • Jagung
+                           \n &#160;&#160;&#160;&#160; • Kentang
+                           \n &#160;&#160;&#160;&#160; • Padi
+                           \n &#160;&#160;&#160;&#160; • Kacang Kedelai</string>
+    <string name="tanamansayur">Tanaman sayuran adalah tanaman hortikultura yang dibudidayakan sebagai salah satu makanan pokok untuk dimanfaatkan sebagai bahan pangan yang dikonsumsi dalam bentuk segar ataupun olahan.\n
+                           \nContoh Tanaman Sayur,yaitu:
+                           \n &#160;&#160;&#160;&#160; • Cabai
+                           \n &#160;&#160;&#160;&#160; • Tomat
+                           \n &#160;&#160;&#160;&#160; • Bawang merah
+                           \n &#160;&#160;&#160;&#160; • Bawang putih</string>
+    <string name="tanamanbuah">Sayuran buah, juga dikenal sebagai buah sayuran atau sayur-sayuran yang berbuah, adalah jenis tanaman yang menghasilkan bagian tumbuhan yang dapat dimakan yang memiliki karakteristik buah. Ini berarti bagian tanaman tersebut mengandung biji dan berkembang dari bunga yang dibuahi. Berikut adalah beberapa contoh sayuran buah dan informasi tentang mereka.\n
+                           \nContoh tanaman buah, yaitu:
+                           \n &#160;&#160;&#160;&#160; • Tomat
+                           \n &#160;&#160;&#160;&#160; • Pabrika</string>
+
+</resources>
